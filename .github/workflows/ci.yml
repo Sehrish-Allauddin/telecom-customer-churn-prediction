@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality-tests-and-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install development dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Lint
+        run: ruff check .
+      - name: Formatting check
+        run: black --check .
+      - name: Import sorting check
+        run: isort --check-only .
+      - name: Tests
+        run: python -m pytest -q --cov=src --cov=api --cov-report=term-missing --cov-report=xml
+      - name: Build inference Docker image
+        run: docker build --target runtime --tag customer-churn-prediction:ci .
+      - name: Smoke-test inference image imports
+        run: docker run --rm --entrypoint python customer-churn-prediction:ci -c "from api.main import app; print(app.title)"

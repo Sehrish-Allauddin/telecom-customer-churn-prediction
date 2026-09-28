@@ -1,0 +1,52 @@
+Feature,Importance
+categorical__Contract_Month-to-month,0.43658996
+categorical__InternetService_Fiber optic,0.09574137
+categorical__Contract_Two year,0.043374427
+categorical__OnlineSecurity_No,0.035345633
+categorical__InternetService_DSL,0.03263026
+categorical__TechSupport_No,0.03258306
+categorical__Contract_One year,0.022904404
+categorical__StreamingMovies_Yes,0.021771783
+numeric__tenure,0.014193231
+categorical__tenure_group_0-12,0.012360708
+categorical__PhoneService_No,0.011682019
+categorical__PaymentMethod_Electronic check,0.01042433
+numeric__MonthlyCharges,0.009194733
+numeric__service_count,0.008972804
+numeric__TotalCharges,0.008903495
+categorical__OnlineSecurity_Yes,0.008785173
+categorical__OnlineBackup_No,0.008199143
+categorical__StreamingTV_Yes,0.008116627
+categorical__tenure_group_49-72,0.00807297
+categorical__StreamingMovies_No,0.008065346
+categorical__PaymentMethod_Mailed check,0.008037246
+categorical__InternetService_No,0.008014288
+categorical__PaperlessBilling_No,0.007795114
+numeric__average_monthly_spend,0.007773589
+categorical__TechSupport_Yes,0.0072812955
+categorical__MultipleLines_No,0.007220741
+categorical__PhoneService_Yes,0.007152872
+categorical__DeviceProtection_Yes,0.007012643
+categorical__tenure_group_13-24,0.0069984756
+categorical__gender_Female,0.006810838
+categorical__StreamingTV_No,0.0066918074
+categorical__gender_Male,0.006551785
+categorical__PaperlessBilling_Yes,0.0063979225
+categorical__DeviceProtection_No,0.006169073
+categorical__Dependents_No,0.0060852827
+categorical__OnlineSecurity_No internet service,0.006079822
+categorical__MultipleLines_Yes,0.0059077237
+numeric__SeniorCitizen,0.005854081
+categorical__OnlineBackup_Yes,0.005618835
+categorical__tenure_group_25-48,0.005596879
+categorical__PaymentMethod_Bank transfer (automatic),0.0053582233
+categorical__Partner_No,0.0050956737
+categorical__Dependents_Yes,0.004967084
+categorical__PaymentMethod_Credit card (automatic),0.004504245
+categorical__Partner_Yes,0.004132583
+categorical__MultipleLines_No phone service,0.0029803852
+categorical__OnlineBackup_No internet service,0.0
+categorical__StreamingTV_No internet service,0.0
+categorical__TechSupport_No internet service,0.0
+categorical__DeviceProtection_No internet service,0.0
+categorical__StreamingMovies_No internet service,0.0

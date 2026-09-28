@@ -1,0 +1,52 @@
+Feature,Mean absolute SHAP
+Contract = Month-to-month,0.6373904747721816
+tenure,0.3384480334984632
+InternetService = Fiber optic,0.19781572614926837
+OnlineSecurity = No,0.1971416873955747
+Contract = Two year,0.15063044720268995
+MonthlyCharges,0.13441943337744708
+TechSupport = No,0.131501446908929
+TotalCharges,0.12570476718788426
+average_monthly_spend,0.12333724499159544
+PaymentMethod = Electronic check,0.12025194953570696
+Contract = One year,0.08499824993243904
+PaperlessBilling = No,0.08143811862499337
+InternetService = DSL,0.05564023746746562
+OnlineBackup = No,0.051085957504611396
+MultipleLines = No,0.05070750694016771
+StreamingMovies = Yes,0.04473709502939461
+SeniorCitizen,0.0443857033663233
+PaymentMethod = Mailed check,0.025212031060422743
+service_count,0.024900688487514568
+PhoneService = No,0.02391504433530212
+Dependents = No,0.021579184893349864
+gender = Female,0.021112742206341916
+MultipleLines = Yes,0.018308325491879232
+StreamingMovies = No,0.01578686760970301
+StreamingTV = Yes,0.013809499695356355
+StreamingTV = No,0.012157048135627126
+PaymentMethod = Bank transfer (automatic),0.010552522681351269
+PaymentMethod = Credit card (automatic),0.008732479121063372
+Partner = No,0.00861538535216954
+DeviceProtection = No,0.007981371442467796
+PaperlessBilling = Yes,0.007507869385902305
+TechSupport = Yes,0.007361327785997422
+OnlineBackup = Yes,0.006396608096898849
+Dependents = Yes,0.006357082616439145
+OnlineSecurity = Yes,0.005289280980268378
+tenure = group_0-12,0.003452073004257984
+tenure = group_25-48,0.0032960753540421874
+DeviceProtection = Yes,0.0030655587579397226
+tenure = group_13-24,0.0022870474860139083
+tenure = group_49-72,0.002226911615527934
+gender = Male,0.002141658948391558
+InternetService = No,0.0018874454839574138
+Partner = Yes,0.0017066542036476304
+OnlineSecurity = No internet service,0.0005840764060523377
+PhoneService = Yes,0.0003431650877697389
+MultipleLines = No phone service,2.441358365816995e-05
+OnlineBackup = No internet service,0.0
+StreamingTV = No internet service,0.0
+TechSupport = No internet service,0.0
+DeviceProtection = No internet service,0.0
+StreamingMovies = No internet service,0.0
