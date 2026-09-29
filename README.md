@@ -2,6 +2,12 @@
 
 An end-to-end portfolio project for identifying telecom customers whose historical account patterns are associated with churn. It includes data validation, leakage-safe model selection, FastAPI inference, a Streamlit dashboard, batch scoring, explanations, and Docker Compose orchestration. It is a reproducible demonstration, **not a production-certified service**.
 
+## Demo video
+
+[▶ Play the project demo](video/demo.mp4)
+
+The video is encoded for browser playback and kept under GitHub's 10 MB preview limit.
+
 ## Business problem
 
 Retention teams have limited time for outreach. A churn score can help rank customers for review; it does not prove that an individual will leave or that an offer will change their behavior. This project demonstrates ranking, operating-point trade-offs, and estimated monthly revenue exposure using a public historical dataset.
